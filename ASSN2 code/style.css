@@ -1,0 +1,143 @@
+html{
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: #EEE9E3;
+  min-height: 100%;
+  margin-right: 2%;
+}
+h1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-family: Abril Fatface;
+  font-size: 2rem;
+  font-weight: normal;
+}
+h2{
+  font-family: Abril Fatface;
+  font-size: 4rem;
+  font-weight: normal;
+}
+p{
+  font-family: Interstate;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+label{
+  font-family: Interstate;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+#email{
+  display: table;
+  vertical-align: middle;
+  position: relative;
+  top: 14px;
+  left: 33px;
+  background-color: #EEE9E3;
+}
+#password{
+  display: table;
+  vertical-align: middle;
+  position: relative;
+  top: 14px;
+  left: 33px;
+  background-color: #EEE9E3;
+}
+#re-enter{
+  display: table;
+  vertical-align: middle;
+  position: relative;
+  top: 14px;
+  left: 33px;
+  background-color: #EEE9E3;
+}
+#promo{
+  -webkit-appearance: none;
+  background-color: #EEE9E3;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	position: relative;
+  padding: 9px;
+}
+#promo:checked{
+  background-color: #93979A;
+	border: 1px solid black;
+	color: #EEE9E3;
+}
+#promo:checked::after{
+  content: '\2713';
+  font-size: 14px;
+  position: absolute;
+  top: 0px;
+  left: 3px;
+  color: #EEE9E3;
+}
+input[type=text] {
+  background-color: #EEE9E3;
+  outline: none;
+  border-radius: 30px;
+  border: 1px solid black;
+  padding-left: 5px;
+  height: 61px;
+  width: 548px;
+  font-family: Interstate;
+}
+input[type=password] {
+  background-color: #EEE9E3;
+  outline: none;
+  border-radius: 30px;
+  border: 1px solid black;
+  padding-left: 5px;
+  height: 61px;
+  width: 548px;
+  font-family: Interstate;
+}
+input[type=submit]{
+  background-color: #4E5255;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+  color: #EEE9E3;
+  height: 61px;
+  width: 264px;
+  font-family: Interstate;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+input::placeholder{
+  font-size: 1.4rem;
+  font-family: Interstate;
+  font-weight: 300;
+  padding-left: 26px;
+}
+.submission{
+  padding-top: 5%;
+}
+.promo{
+  padding-top: 5%;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-column-gap: 2%;
+}
+#sign-up{
+  margin: auto;
+  text-align: center;
+  height: 100%;
+}
+
+.banner-wrapper{
+  position: relative;
+}
+#banner{
+  background: url(https://i.pinimg.com/564x/df/83/9e/df839e52ab4403e1865ae3ee6a899487.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+}

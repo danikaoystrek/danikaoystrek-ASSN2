@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - KindredPrint</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="grid">
+      <div class="banner-wrapper">
+        <div id="banner">
+          <h1>KindredPrint</h1>
+        </div>
+      </div>
+  <!--forms-->
+      <div id="sign-up">
+        <form action="submission.html" method="POST">
+            <h2>Sign Up</h2>
+              <form class="email">
+                <label id="email" for="email">email</label>
+                <input type="text" name="email" required placeholder="email@address.com">
+              </form>
+              <form class="password">
+                <label id="password" for="password">password</label>
+                <input type="password" name="password" required placeholder="enter password">
+              </form>
+              <form class="re-enter">
+                <label id="re-enter"for="re-enter">re-enter password</label>
+                <input type="password" name="re-enter" required placeholder="re-enter password">
+              </form>
+              <form class="promo">
+                <label for="promo">I would like to receive promotional emails from KindredPrint.</label>
+                <input id="promo" type="checkbox" name="promo" value="yes">
+              </form>
+              <form class="submission">
+                <input type="submit" value="Sign Up">
+          </form>
+          <div class="terms">
+            <p>By signing up you acknowledge you have read and agree to the <a href="https://policies.google.com/terms?hl=en-US">terms of service</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+  </body>
+
+
+
+
+
+</html>
